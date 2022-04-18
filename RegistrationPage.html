@@ -1,0 +1,74 @@
+
+
+
+<html>
+	<head>
+		<title>
+			Registration Form>
+		</title>
+		<style>
+		table
+		{
+			color:white;
+			background-color:black;
+		}
+		#sign_up_btn
+		{
+			background-color:violet;
+			height:35px;
+			width:100px;
+			border-radius:0px;
+		}
+		#back_btn
+		{
+			background-color:#0abde3;
+			height:30px;
+			width:120px;
+			border-radius:0px;
+		}
+		</style>
+	</head>
+	<body background="bg.png">
+		<br>
+		<br><br><br><br>
+		<form action="Registration_DB_Connection.php" method="POST">
+			<table align="center" border="0" cellspacing="15" style="font-size:20px">
+				<tr>
+					<td align="center" colspan="2" 
+					>Registration Form</td>
+				</tr>
+				<tr>
+					<td align="center" colspan="2"><img src="Userpic1.png" height="110" width="110"</td>
+				</tr>
+				<tr>
+					<td>First Name<td><input type="text" placeholder="First Name" name="first_name" required></td>
+				</tr>
+				<tr>
+					<td>Last Name<td><input type="text" placeholder="Last Name" name="last_name"></td>
+				</tr>
+				<tr>
+					<td>Registration Number<td><input type="text" placeholder="Regd no" name="regd_no" required></td>
+				</tr>
+				<tr>
+					<td>Password<td><input type="password" placeholder="Password" name="password" required></td>
+				</tr>
+				<tr>
+					<td>Confirm Password<td><input type="password" placeholder="Confirm Password" name="confirm_password" required></td>
+				</tr>
+				<tr>
+					<td align="center" colspan="2">
+					<a href="login.html">
+					<input type="submit" value="Sign up" id="sign_up_btn" name="submit" background-color="violet" style="font-size:20px">
+					</a></td>
+				</tr>
+				<tr>
+					<td align="left">
+					<a href="LoginPage.html">
+					<input type="button" value="Back to Login" id="back_btn" style="font-size:17px">
+					</a></td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
+
